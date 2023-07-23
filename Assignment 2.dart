@@ -6,7 +6,7 @@ void printlistnames(List <String> list){
 }
 class Tuple {
   final List<String> items;
-  Tuple(this.items);
+  Tuple(this.items); // to initialize items 
 
   factory Tuple.fromList(List<String> list) {
     return Tuple(List.unmodifiable(list));
